@@ -44,9 +44,9 @@ REPO_OWNER = "Biisal"
 
 # Bot information
 SESSION = environ.get('SESSION', 'radhe-radhe2')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "") #if you are going to bot token here make sure your repo is private..
+API_ID = int(environ.get('API_ID', '25848289'))
+API_HASH = environ.get('API_HASH', '88cf2c17c7a2bd21f4204c89c648dd40')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7316241103:AAE1FUdR--B9mpXYiN17c6HbSWiY5X-1Fh8") #if you are going to bot token here make sure your repo is private..
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 
 # Bot settings
@@ -59,23 +59,23 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001934462631').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1557042262 6482751939 7055086465 5530670590').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002238185656').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5397984467').split()]
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1557042262 6482751939 7055086465 5530670590').split()]
 auth_channel = environ.get('AUTH_CHANNEL')
-auth_grp = environ.get('AUTH_GROUP', '-1001734958816')
+auth_grp = environ.get('AUTH_GROUP', '-1002234418373')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001812797837')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001933661618')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001923834324')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001947804941')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://anjuyadav171835:id4pxrIJh3E8AFd4@cluster0.xfmxtwg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "bisal-ki-bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -90,18 +90,18 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "20")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/bisal_files_talk')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/bisal_files')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movie_Url_link_downloader/17')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/RS_Movie')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RS_Movie')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/yhrdhi/4')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', ''))
-NEW_USER_LOG = int(environ.get('NEW_USER_LOG', ''))
-BIN_CHNL = int(environ.get('BIN_CHNL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002157133057'))
+VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002246762613'))
+NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002236149210'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1002184588707'))
 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RS_Movie')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
