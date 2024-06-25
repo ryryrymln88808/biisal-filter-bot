@@ -96,7 +96,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/yhrdhi/4')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002157133057'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002055918522'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002246762613'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002236149210'))
 BIN_CHNL = int(environ.get('BIN_CHNL', '-1002184588707'))
