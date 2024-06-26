@@ -75,7 +75,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vohecac505:8MH6eltETw3ussFP@cluster0.z7hjfec.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ryryrymln88808:6CrFpGCUpkRvjBbZ@cluster0.j2xo87f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "bisal-ki-bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
